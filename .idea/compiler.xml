@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo2-service2-client" />
+        <module name="demo2-service1-client" />
+        <module name="demo2-gateway-server" />
+        <module name="demo2-service2-dao" />
+        <module name="demo2-config-server" />
+        <module name="demo2-service2-server" />
+        <module name="demo2-eureka-server" />
+        <module name="demo2-service1-dao" />
+        <module name="demo2-service1-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+      <module name="demo-service2" target="8" />
+      <module name="demo2-config-client" target="1.8" />
+      <module name="demo2-parent" target="8" />
+      <module name="demo2-service1-server (1)" target="1.8" />
+      <module name="demo2-service10server" target="1.8" />
+      <module name="deom2-service1-client" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
+      <module name="demo2-config" options="" />
+      <module name="demo2-config-client" options="-parameters" />
+      <module name="demo2-config-server" options="" />
+      <module name="demo2-eureka" options="" />
+      <module name="demo2-eureka-server" options="" />
+      <module name="demo2-gateway-server" options="" />
+      <module name="demo2-service1" options="" />
+      <module name="demo2-service1-client" options="" />
+      <module name="demo2-service1-dao" options="" />
+      <module name="demo2-service1-server" options="" />
+      <module name="demo2-service1-server (1)" options="-parameters" />
+      <module name="demo2-service10server" options="-parameters" />
+      <module name="demo2-service2" options="" />
+      <module name="demo2-service2-client" options="" />
+      <module name="demo2-service2-dao" options="" />
+      <module name="demo2-service2-server" options="" />
+    </option>
+  </component>
+</project>

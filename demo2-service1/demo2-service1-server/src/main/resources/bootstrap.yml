@@ -1,0 +1,30 @@
+
+spring:
+  application:
+    name: demo-service1
+  cloud:
+    config:
+      discovery:
+        enabled: true   #开启配置信息发现
+        serviceId: demo-config   #指定配置中心的service-id，便于扩展为高可用配置集群,服务端的application name
+      label: master     #获取配置文件的分支，默认是master。如果是是本地获取的话，则无用。
+      name: service1  #获取配置文件的名称
+      profile: dev      #获取配置的策略
+
+
+
+#  不集成eureka则指定uri
+#  spring.cloud.config.label=master
+#  spring.cloud.config.profile=test
+#  spring.cloud.config.uri= http://localhost:8888/
+
+eureka:
+  instance:
+    prefer-ip-address: true # 注册服务的时候使用服务的ip地址
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+
+
+

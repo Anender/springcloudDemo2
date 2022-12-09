@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/demo2-config/demo2-config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo2-eureka/demo2-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo2-gateway/demo2-gateway-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo2-service1/demo2-service1-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo2-service1/demo2-service1-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo2-service1/demo2-service1-dao/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo2-service1/demo2-service1-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo2-service1/demo2-service1-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo2-service2/demo2-service2-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo2-service2/demo2-service2-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo2-service2/demo2-service2-server/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

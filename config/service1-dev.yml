@@ -1,0 +1,19 @@
+server:
+  port: 8001
+
+spring:
+  config:
+    use-legacy-processing: true    #最新版本用group管理，这里强制开启用include
+  profiles:
+    include: db
+
+mybatis:
+  configuration:
+    aggressive-lazy-loading: false
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath*:org/ender/springcloudDemo2/service1/dao/*/*.xml
+  type-aliases-package: org.ender.springcloudDemo2.service1.dao.entity
+
+
+
+
